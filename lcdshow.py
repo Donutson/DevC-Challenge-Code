@@ -11,8 +11,6 @@
 #-------------------------------------------------------------------------------
 #!/usr/bin/env python
 
-import sys
-
 class Numbers:
 	"""
 		Cette classe permet de créer en format lcd des nombres allant de 0 à 9
