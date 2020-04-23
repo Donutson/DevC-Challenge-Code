@@ -26,7 +26,7 @@ class Numbers:
 	def one(s):
 
 		hor = ' '*(s+2)+'\n'
-		ver = ('  |'+' '*(s-1)+'\n')*s
+		ver = (' '*(s+1)+'|'+'\n')*s
 
 		return hor + ver + hor +ver+hor
 
@@ -154,7 +154,7 @@ def showlcd(s, n):
 
 		screen += schema[nbdigits-1][i] + '\n'
 	
-	print(screen)
+	print(screen, end='')
 
 def main():
 
