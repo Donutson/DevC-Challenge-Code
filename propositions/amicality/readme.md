@@ -24,59 +24,59 @@ L'amicalité intérieure I, extérieure E et totale T du DevC séparé par des e
 
 # Exemple 1
 
-Entrées              Sortie
-3                    3 5 8
-Jean 3
-Patrick
-Noe
-Joel
-Fabrice 1
-Noe
-Joel 4
-Jean
-Noe
-Patrick
-Fabrice
+Entrées              Sortie<br>
+3                    3 5 8<br>
+Jean 3<br>
+Patrick<br>
+Noe<br>
+Joel<br>
+Fabrice 1<br>
+Noe<br>
+Joel 4<br>
+Jean<br>
+Noe<br>
+Patrick<br>
+Fabrice<br>
 
-# Exemple 2
+# Exemple 2<br>
 
-Entrées               Sortie
-10                    14 14 28
-Jean 3
-Patrick
-Noe
-Joel
-Fabrice 1
-Noe
-Joel 4
-Jean
-Brice
-Patrick
-Joelle
-Jacques 4
-Romeo
-Sean
-Boa
-Simeon
-Simeon 3
-Patrick
-Noe
-Jacques
-Pierre 3
-Jacques
-George
-Leo
-Brigitte 2
-Paul
-Simeon
-Sean 1
-Brice
-Patrick 5
-Simeon
-Jean
-Joel
-Marie
-George
-Jacques 3
-Boa
-Simeon
+Entrées               Sortie<br>
+10                    14 14 28<br>
+Jean 3<br>
+Patrick<br>
+Noe<br>
+Joel<br>
+Fabrice 1<br>
+Noe<br>
+Joel 4<br>
+Jean<br>
+Brice<br>
+Patrick<br>
+Joelle<br>
+Jacques 4<br>
+Romeo<br>
+Sean<br>
+Boa<br>
+Simeon<br>
+Simeon 3<br>
+Patrick<br>
+Noe<br>
+Jacques<br>
+Pierre 3<br>
+Jacques<br>
+George<br>
+Leo<br>
+Brigitte 2<br>
+Paul<br>
+Simeon<br>
+Sean 1<br>
+Brice<br>
+Patrick 5<br>
+Simeon<br>
+Jean<br>
+Joel<br>
+Marie<br>
+George<br>
+Jacques 3<br>
+Boa<br>
+Simeon<br>
