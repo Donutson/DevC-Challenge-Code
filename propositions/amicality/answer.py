@@ -72,7 +72,7 @@ def iamicality(member, others):
 
 def tamicality(devc):
     """
-        Calcule l'amicalité totale d'un DevC
+        Calcule l'amicalitÃ© totale d'un DevC
         devc: Devc une instance du Devc dont on souhaite calculer l'amicalite
     """
 
@@ -93,39 +93,39 @@ def tamicality(devc):
 def main():
 
     #Recuperation des donnees
-##    N = int(input())
-##    devc = Devc(N)
-##
-##    for i in range(N):
-##        line = input()
-##        C, M = line.split(' ')[0], int(line.split(' ')[1])
-##        devc.members.append(C)
-##        devc.links.append(Member(C))
-##
-##        for j in range(M):
-##            friend = input()
-##            devc.links[i].friends.add(friend)
-##
-##    print(*tamicality(devc))
+    N = int(input())
+    devc = Devc(N)
+
+    for i in range(N):
+        line = input()
+        C, M = line.split(' ')[0], int(line.split(' ')[1])
+        devc.members.append(C)
+        devc.links.append(Member(C))
+
+        for j in range(M):
+            friend = input()
+            devc.links[i].friends.add(friend)
+
+    print(*tamicality(devc))
 
     #Recuperation des donnees au travers d'un fichier pour lests
 
-    test = "test2.txt"
-    with open(test, 'r') as file:
-        N = int(file.readline())
-        devc = Devc(N)
-
-        for i in range(N):
-            line = file.readline()
-            C, M = line.split(' ')[0], int(line.split(' ')[1])
-            devc.members.append(C)
-            devc.links.append(Member(C))
-
-            for j in range(M):
-                friend = file.readline()[:-1]
-                devc.links[i].friends.add(friend)
-
-        print(*tamicality(devc))
+##    test = "test3.txt"
+##    with open(test, 'r') as file:
+##        N = int(file.readline())
+##        devc = Devc(N)
+##
+##        for i in range(N):
+##            line = file.readline()
+##            C, M = line.split(' ')[0], int(line.split(' ')[1])
+##            devc.members.append(C)
+##            devc.links.append(Member(C))
+##
+##            for j in range(M):
+##                friend = file.readline()[:-1]
+##                devc.links[i].friends.add(friend)
+##
+##        print(*tamicality(devc))
 
 if __name__ == '__main__':
     main()
