@@ -19,64 +19,86 @@ chaque section commence par une ligne contenant une chaine de caractère C et un
 séparé par un espace, C représente le nom du membre et M son nombre d'amis; cette ligne est suivit
 par M lignes contenant chacune une chaine de caractère représentant le nom d'un ami de C.
 
-# Sorties
+# Sortie
 L'amicalité intérieure I, extérieure E et totale T du DevC séparé par des espaces
 
 # Exemple 1
-
-Entrées&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              Sortie<br>
-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    3 5 8<br>
-Jean 3<br>
-Patrick<br>
-Noe<br>
-Joel<br>
-Fabrice 1<br>
-Noe<br>
-Joel 4<br>
-Jean<br>
-Noe<br>
-Patrick<br>
-Fabrice<br>
-
-# Exemple 2<br>
-
-Entrées&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               Sortie<br>
-10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    14 14 28<br>
-Jean 3<br>
-Patrick<br>
-Noe<br>
-Joel<br>
-Fabrice 1<br>
-Noe<br>
-Joel 4<br>
-Jean<br>
-Brice<br>
-Patrick<br>
-Joelle<br>
-Jacques 4<br>
-Romeo<br>
-Sean<br>
-Boa<br>
-Simeon<br>
-Simeon 3<br>
-Patrick<br>
-Noe<br>
-Jacques<br>
-Pierre 3<br>
-Jacques<br>
-George<br>
-Leo<br>
-Brigitte 2<br>
-Paul<br>
-Simeon<br>
-Sean 1<br>
-Brice<br>
-Patrick 5<br>
-Simeon<br>
-Jean<br>
-Joel<br>
-Marie<br>
-George<br>
-Jacques 3<br>
-Boa<br>
-Simeon<br>
+```
+Entrées              Sortie
+2                    2 4 6
+Mike 3
+Sarah
+Jhon
+Michel
+Jhon 6
+Mike
+Franck
+Sery
+Michel
+Yannick
+Sarah
+```
+# Exemple 2
+```
+Entrées              Sortie
+3                    4 6 10
+Jean 3
+Patrick
+Noe
+Joel
+Fabrice 2
+Joel
+Noe
+Joel 4
+Jean
+Noe
+Patrick
+Fabrice
+```
+# Exemple 3
+```
+Entrées               Sortie
+10                    17 15 32
+Jean 3
+Patrick
+Noe
+Joel
+Fabrice 1
+Noe
+Joel 4
+Jean
+Brice
+Patrick
+Joelle
+Jacques 5
+Pierre
+Romeo
+Sean
+Boa
+Simeon
+Simeon 5
+Patrick
+Noe
+Brigitte
+Prince
+Jacques
+Pierre 3
+Jacques
+George
+Leo
+Brigitte 2
+Paul
+Simeon
+Sean 1
+Brice
+Patrick 5
+Simeon
+Jean
+Joel
+Marie
+George
+Prince 3
+Boa
+Simeon
+Marie<
+```
